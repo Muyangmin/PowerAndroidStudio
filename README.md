@@ -1,4 +1,9 @@
-经历了几次换电脑的过程，每次都是草草下一个最新版的AS开始用，调好logcat，安装插件，但总会有遗漏。开发过程中偶有新发现，在下次配置电脑的时候多半又会忘记，而每次重新去找各种配置也是很麻烦的一件事情。因此萌生了记录下Android Studio最强大配置的想法。项目已经托管到Github，地址在[这里](https://github.com/Muyangmin/PowerAndroidStudio.git)。欢迎各位分享Android Studio的使用心得。
+经历了几次换电脑的过程，每次都是草草下一个最新版的AS开始用，调好logcat，安装插件，但总会有遗漏。开发过程中偶有新发现，在下次配置电脑的时候多半又会忘记，而每次重新去找各种配置也是很麻烦的一件事情。因此萌生了记录下Android Studio最强大好用配置的想法。  
+为文档简明起见，除非必要，本文不提供详细步骤截图，如不会操作，请自行求助搜索引擎或社区。同时非常欢迎各位分享Android Studio的使(qi)用(ji)心(yin)得(qiao)。
+
+# Licence & Contribution
+本文及本项目遵从**知识共享署名(CC BY )4.0协议**，协议文本在[这里](https://creativecommons.org/licenses/by/4.0/)。
+欢迎Star和Fork，可直接在线编辑之后commit提交PR，也可手动Fork之后PR。
 
 Ok， 让我们开始吧。
 
@@ -17,6 +22,7 @@ Ok， 让我们开始吧。
 * Lifecyle Sorter:按照Activity/Fragment的生命周期将回调方法排序。
 * Markdown:见名知意，Markdown文本编辑器。
 * Genymotion：在工具栏添加Genymotion的管理面板入口，如果使用Genymotion做测试会非常实用。
+* Activity createIntent Inspection:检查非抽象Activity是否存在createIntent方法并提供一个quickFix。类似插件还有Fragment newInstance Inspection.
 
 > 注意：
 * 本文的目的并非为这些插件做文档或任何形式的使用说明，请自行使用搜索引擎查找相关资料。
