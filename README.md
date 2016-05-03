@@ -46,6 +46,10 @@ Info `#6A8759`, Verbose `#BBBBBB`, Warn `#BBB529`。
 ###### 设置Encoding
 确保IDE Encoding、Project Encoding和 Properties Encoding都设置为**UTF-8**。
 
+###### 设置输入时自动换行*(Line Wrap)*
+* Setting->Editor->Code Style，在`Default Options`里设置Right margin，通常推荐100或者120。勾选`wrap on typing`。
+* 再找Code Style->Java，点击右侧标签Wrapping and Braces，勾选**Line breaks**和**Ensure right margin is not exceeded**。
+
 ###### 设置Keymap
 这一步按照自己最喜欢的即可。就我个人而言，我喜欢把Duplicate Line 和Delete Line的`Ctrl+Y`和`Ctrl+D`调换过来。
 
