@@ -64,4 +64,6 @@ Setting->Editor->File And Code Templates->Includes，修改Java 文件的Header�
 以后每次开始新的版本迭代时，修改这个地方的版本号，从此不用担心每个类是从什么时候加入的啦！
 
 ## 四、设置Live Templates
-Live templates可以极大提高工作效率。请打开项目路径下的`LiveTemplates.java`文件，寻找感兴趣的代码块，通过Setting->Editor->LiveTemplates添加到你的Studio，然后尽情享受吧！
+Android Studio 已经内置了非常多的使用Live Template，例如 `fori`, `$number$.for`, `$iterable$.fori`, `$iterable$.forr`, `$condExpr$.if`, `$obj$.nn`, `$obj$.null`, `$obj$ inst`，还有很多没有列出的操作。如果你对这些常用的Live Templpate还不熟悉，强烈建议你试用一下。
+
+使用自定义的Live templates可以进一步提高工作效率。请打开项目路径下的`LiveTemplates.java`文件，寻找感兴趣的代码块，通过Setting->Editor->LiveTemplates添加到你的Studio，然后尽情享受吧！
